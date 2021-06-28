@@ -7,11 +7,14 @@ import { useDispatch } from "react-redux";
 import { loadDetail } from "../actions/detailAction";
 //Router
 import { Link } from "react-router-dom";
+//Image refactoring function
+import { smallImage } from "../util";
 
 const Game = ({ name, released, id, image }) => {
     //Load details
     const dispatch = useDispatch();
     const loadDetailHandler = () => {
+        document.body.style.overflow = "hidden";
         dispatch(loadDetail(id));
     };
     return (
@@ -19,7 +22,7 @@ const Game = ({ name, released, id, image }) => {
             <Link to={`/game/${id}`}>
                 <h3>{name}</h3>
                 <p>Released Date: {released}</p>
-                <img src={image} alt={name} />
+                <img src={smallImage(image, 640)} alt={name} />
             </Link>
         </StyledGame>
     );
@@ -31,6 +34,7 @@ const StyledGame = styled(motion.div)`
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
     text-align: center;
     border-radius: 1rem;
+    overflow: hidden;
     img {
         width: 100%;
         height: 40vh;
