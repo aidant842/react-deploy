@@ -31,4 +31,4 @@ const nextYear = `${currentYear + 1}-${currentMonth}-${currentDay}`;
 //Popular Games
 const popular_games = `games?key=${process.env.REACT_APP_RAWG_API_KEY}&dates=${lastYear},${currentDate}&ordering=-rating&page_size=10`;
 
-export const popularGamesUrl = () => `${base_url}${popular_games}`;
+export const popularGamesURL = () => `${base_url}${popular_games}`;
