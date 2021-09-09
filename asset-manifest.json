@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.js": "/github.io/react-deploy/static/js/main.28210788.chunk.js",
+    "main.js.map": "/github.io/react-deploy/static/js/main.28210788.chunk.js.map",
+    "runtime-main.js": "/github.io/react-deploy/static/js/runtime-main.64dbf6bc.js",
+    "runtime-main.js.map": "/github.io/react-deploy/static/js/runtime-main.64dbf6bc.js.map",
+    "static/js/2.258f8e9c.chunk.js": "/github.io/react-deploy/static/js/2.258f8e9c.chunk.js",
+    "static/js/2.258f8e9c.chunk.js.map": "/github.io/react-deploy/static/js/2.258f8e9c.chunk.js.map",
+    "static/js/3.cf08c730.chunk.js": "/github.io/react-deploy/static/js/3.cf08c730.chunk.js",
+    "static/js/3.cf08c730.chunk.js.map": "/github.io/react-deploy/static/js/3.cf08c730.chunk.js.map",
+    "index.html": "/github.io/react-deploy/index.html",
+    "static/js/2.258f8e9c.chunk.js.LICENSE.txt": "/github.io/react-deploy/static/js/2.258f8e9c.chunk.js.LICENSE.txt",
+    "static/media/apple.5757c37e.svg": "/github.io/react-deploy/static/media/apple.5757c37e.svg",
+    "static/media/gamepad.c9269ef5.svg": "/github.io/react-deploy/static/media/gamepad.c9269ef5.svg",
+    "static/media/logo.9b6b8655.svg": "/github.io/react-deploy/static/media/logo.9b6b8655.svg",
+    "static/media/nintendo.f579be04.svg": "/github.io/react-deploy/static/media/nintendo.f579be04.svg",
+    "static/media/playstation.18cc4b9c.svg": "/github.io/react-deploy/static/media/playstation.18cc4b9c.svg",
+    "static/media/steam.d7b8819f.svg": "/github.io/react-deploy/static/media/steam.d7b8819f.svg",
+    "static/media/xbox.3e7db735.svg": "/github.io/react-deploy/static/media/xbox.3e7db735.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.64dbf6bc.js",
+    "static/js/2.258f8e9c.chunk.js",
+    "static/js/main.28210788.chunk.js"
+  ]
+}
